@@ -1,2 +1,1 @@
-# akanshamore.github.io
- 
+# sidgore.github.io

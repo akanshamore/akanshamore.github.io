@@ -58,7 +58,7 @@ h2 {
 }
 
 .details-container,
-.about-container,
+
 .skills-container,
 .projects-container,
 .contact-container {
@@ -67,11 +67,22 @@ h2 {
     text-align: center;
 }
 
+.about-container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 
-.profile-picture,
-.about-profile-picture {
+.profile-picture {
     width: 150px;
     border-radius: 50%;
+}
+
+.about-profile-picture {
+    width: 350px;
+    border-radius: 5px;
+    margin-right: 40px;
 }
 
 .social-icons {

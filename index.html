@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- Header Section -->
     <header>
         <div class="container">
             <div class="logo">
@@ -28,7 +29,9 @@
         </div>
     </header>
 
+    <!-- Main Content -->
     <main>
+        <!-- Home Section -->
         <section id="home">
             <div class="details-container">
                 <img src="./assets/images/dp.jpeg" class="profile-picture" />
@@ -52,6 +55,7 @@
             </div>
         </section>
 
+        <!-- About Section -->
         <section id="about">
             <h2>About Me</h2>
             <div class="about-container">
@@ -63,6 +67,7 @@
             </div>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills">
             <h2>Skills</h2>
             <div class="skills-container">
@@ -87,6 +92,7 @@
             </div>
         </section>
 
+        <!-- Certifications Section -->
         <section id="certifications">
             <h2>Relevant Certifications</h2>
             <div class="certifications-container">
@@ -111,6 +117,7 @@
             </div>
         </section>
 
+        <!-- Projects Section -->
         <section id="projects">
             <h2>My Projects</h2>
             <div class="projects-container">
@@ -159,6 +166,7 @@
             </div>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact">
             <div class="contact-container">
                 <h2>Contact Me</h2>
@@ -182,6 +190,7 @@
         </section>
     </main>
 
+    <!-- Footer Section -->
     <footer>
         <div class="footer-container">
             <h2>Contact Me</h2>
@@ -194,6 +203,8 @@
             <p class="copyright">© 2024 Akansha. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- JavaScript for Theme Toggle -->
     <script>
         const themeToggle = document.getElementById('theme-toggle');
         const body = document.body;
@@ -205,7 +216,6 @@
             header.classList.toggle('dark-mode');
             footer.classList.toggle('dark-mode');
             themeToggle.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
-
         });
     </script>
 </body>

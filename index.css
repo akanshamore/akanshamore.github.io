@@ -249,9 +249,12 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+
+footer {
+    background-color: rgb(61, 155, 155);
+}
 .footer-container {
     text-align: center;
-    background-color: rgb(61, 155, 155);
     color: white;
     padding: 20px;
 }
@@ -269,3 +272,17 @@ button[type="submit"]:hover {
 .copyright {
     margin-top: 10px;
 }
+
+
+
+
+header.dark-mode {
+    background-color: #444; /* Darker header */
+}
+
+footer.dark-mode {
+    background-color: #444; /* Darker footer */
+    color: white;
+}
+
+

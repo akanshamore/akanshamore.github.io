@@ -22,6 +22,7 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><button id="theme-toggle">🌙</button></li>
                 </ul>
             </nav>
         </div>
@@ -193,6 +194,20 @@
             <p class="copyright">© 2024 Akansha. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const header = document.querySelector('header');
+        const footer = document.querySelector('footer');
+    
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            header.classList.toggle('dark-mode');
+            footer.classList.toggle('dark-mode');
+            themeToggle.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+
+        });
+    </script>
 </body>
 
 </html>
